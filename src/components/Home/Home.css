@@ -1,0 +1,19 @@
+.home {
+    background-image: url('../assets/Harvest-Home-Hero-image.jpeg');
+    background-size: 1440px; /* Adjust to your preference */
+    background-repeat: no-repeat;
+    height: 650px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    display: flex; /* Add this */
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-weight: 300;
+    margin-bottom: 500px;
+}

@@ -1,0 +1,25 @@
+ul{
+    display:flex;
+    gap:5rem; 
+}
+li{
+    list-style: none;    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+nav{
+    height: 0;
+    top: 0;
+    margin-bottom: 0;
+    display: flex;
+    background-color: #333; /* Adjust to your preference */
+    position: fixed;
+}
+.company_name{
+    color: white;
+    font-size: xx-large;
+    margin-right: 300px;
+}
