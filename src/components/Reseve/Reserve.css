@@ -2,3 +2,10 @@ p{
     margin-top: 500px;
     color:black
 }
+.reserve{
+    background-image: url('../assets/reserve.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    display: flex;
+
+}

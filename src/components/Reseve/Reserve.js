@@ -1,9 +1,12 @@
 // src/components/Reserve.js
 import React from 'react';
-import './Reserve.css'
+import './Reserve.css';
+
+
+
 function Reserve() {
   return (
-    <div id='reserve'>
+    <div id='reserve' className='reserve'>
       <h2>Reserve</h2>
       <p>Reserve your table...</p>
     </div>

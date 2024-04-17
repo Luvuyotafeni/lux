@@ -15,5 +15,146 @@
     color: white;
     font-size: 100px;
     font-weight: 300;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
+    margin-top: 10px;
 }
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.star{
+    height: 50px;
+    width: 200px; 
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.review-text {
+    margin-top: 0;
+    align-self: center;
+    font-size: xx-large;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+.review_header{
+    margin-top: 20px;
+    align-self: center;
+    font-size: xx-large;
+    font-weight: 400;
+}
+.review{
+    margin-top: 20px;
+    text-align: center;
+    margin: 5px 100px;
+    padding: 100px;
+    font-size: x-large;
+}
+.btn_menu{
+    margin-top: 0;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 490px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    align-self: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.mostly_bought{
+    background-image: url('../assets/734030c284d6d0fccd509bf3b9c9041a.jpg');
+    height: 900px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.meal_header{
+    margin-top: 30px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+.meal{
+    text-align: center;
+    margin-top: 30px;
+}
+.meals{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 300px;
+}
+.meal_text{
+    color: white;
+    margin-top: 0;
+    font-size: xx-large;
+}
+.meal_details{
+    color: white;
+    margin-top: 0;
+    font-size: x-large;
+}
+.btn_more{
+    margin-top: 0;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 600px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    align-self: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.reserve_space {
+    position: relative; 
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency here */
+    background-image: url('../assets/pexels-rene-asmussen-1581384-1.jpg');
+    height: 700px;
+    margin-top: 20px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reserve_info {
+    text-align: center;
+  }
+  
+  .reserve_space_h {
+    margin-top: 50px;
+    color: white;
+    font-size: xx-large;
+  }
+  
+  .motive {
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+  }
+  .btn_book{
+    height: 50px;
+    width:100px;
+    font-size: large;
+  }
+  
+/* Overlay styles */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency here */
+  }

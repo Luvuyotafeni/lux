@@ -1,4 +1,6 @@
 .menu_d{
-    margin-top: 500px;
-    background-color: black;
+    background-image: url('../assets/menu\ image.jpg');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 1400px;
 }
