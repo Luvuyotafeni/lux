@@ -1,23 +1,49 @@
-.menu_d{
+.menu_d {
     background-image: url('../assets/menu\ image.jpg');
     display: flex;
     flex-direction: column;
     height: 600px;
-    align-items: center; /* Center content vertically */
+    align-items: center;
     text-align: center;
     justify-content: center;
     background-repeat: no-repeat;
-    background-size: 1400px;
-    
+    background-size: cover; /* Use cover to ensure the image covers the container */
+  }
+  
+  .menu_d h2, .menu_d p {
+    color: white;
+    margin: 60px; /* Remove default margin for h2 and p */
+    padding: 0;
+    font-size: xx-large;
+  }
+  
 
-}
-.menu_d p{
-    color: white;
-    font-size: x-large;
-    margin-top: 0;
-}
-.menu_d h2{
-    margin-top: 0;
-    color: white;
-    font-size: 50px;
-}
+  .menu_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Space between menu items */
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .menu_item {
+    margin: 10px;
+    padding: 0;
+    text-align: center;  
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 400px;
+    transition: transform 0.3s ease;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .menu_item p{
+    padding: 0;
+    margin: 0;
+  }
+  .menu_item:hover {
+    transform: scale(1.05);
+  }
+ 
+ 
