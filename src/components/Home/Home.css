@@ -113,6 +113,11 @@
     margin-top: 20px; /* Adjust as needed */
 }
 
+.Reserver p{
+    font-size: 60px;
+    margin: 50px;
+    text-align: center;
+}
 .reserve_space {
     position: relative; 
     background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency here */

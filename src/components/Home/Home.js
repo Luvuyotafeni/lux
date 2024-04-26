@@ -54,6 +54,11 @@ function Home() {
         </div>
         <button className='btn_more'>View More</button>
       </section>
+      <section>
+        <div className='Reserver'>
+          <p>lets reservesome space</p>
+        </div>
+      </section>
       <section id='reserve' className='reserve_space'>
         <div className='reserve_info'>
           <p className='reserve_space_h'>Book your culinary experience now</p>
