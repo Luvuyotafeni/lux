@@ -21,8 +21,8 @@
               <Card
                 price={val.price}
                 title={val.title}
-                desc={val.desc}
-                
+                image={val.image}
+                desc={val.desc}               
               />
               </div>
             );

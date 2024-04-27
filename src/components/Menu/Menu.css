@@ -29,7 +29,7 @@
   
   .menu_item {
     margin: 10px;
-    padding: 0;
+    padding: 10px;
     text-align: center;  
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -37,13 +37,17 @@
     transition: transform 0.3s ease;
     height: fit-content;
     box-sizing: border-box;
+    display:flex;
   }
   .menu_item p{
-    padding: 0;
+    padding: 10px;
     margin: 0;
   }
   .menu_item:hover {
     transform: scale(1.05);
   }
  
- 
+ .item_image{
+  width:300px;
+  height: 200px
+ }
