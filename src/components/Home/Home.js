@@ -1,18 +1,27 @@
 import React from 'react';
-import './Home.css'
-import star from '../assets/5-Star.png'
+import { useNavigate } from 'react-router-dom'; // Import useNavigate hook from React Router
+import './Home.css';
+import star from '../assets/5-Star.png';
 
 function Home() {
+  const navigate = useNavigate(); // Initialize the navigate function
+
+  // Function to handle navigation to the Menu page
+  const handleViewMenu = () => {
+    navigate('/menu'); // Navigate to the Menu page when the button is clicked
+  };
+
   return (
     <>
       <section className='home'>
-       <div id='home' >
-        <p className='welcome'>Welcome to our restaurant!</p>
-        <div className='menu'>
-        <button className='btn_menu'>VIEW MENU</button>
+        <div id='home'>
+          <p className='welcome'>Welcome to our restaurant!</p>
+          <div className='menu'>
+            {/* Call handleViewMenu function when the button is clicked */}
+            <button className='btn_menu' onClick={handleViewMenu}>VIEW MENU</button>
+          </div>
         </div>
-       </div>
-      </section>
+        </section>
       <section id='reviews' className='reviews'>
         <p className='review_header'>Customer reviews</p>
         <img src={star} className='star'></img>
