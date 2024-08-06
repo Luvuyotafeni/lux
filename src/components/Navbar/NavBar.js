@@ -18,6 +18,9 @@ const Navbar = () => {
           <Link to="/menu">Menu</Link>
         </li>
         <li>
+          <Link><i class='bx bxs-cart'></i></Link>
+        </li>
+        <li>
           <Link to="/reserve">Reserve</Link>
         </li>
       </ul>

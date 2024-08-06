@@ -19,6 +19,11 @@ nav{
     position: fixed;
     z-index: 999;
 }
+
+.bxs-cart{
+    color:black;
+    font-size: xx-large;
+}
 .company_name{
     color: white;
     font-size: xx-large;

@@ -11,6 +11,10 @@ function Home() {
     navigate('/menu'); // Navigate to the Menu page when the button is clicked
   };
 
+  const handleReserve = () => {
+    navigate('/reserve'); // Navigate to the Reserve page when the button is clicked
+  }
+
   return (
     <>
       <section className='home'>
@@ -61,11 +65,11 @@ function Home() {
           </div>
           
         </div>
-        <button className='btn_more'>View More</button>
+        <button className='btn_more' onClick={handleViewMenu}>View More</button>
       </section>
       <section>
         <div className='Reserver'>
-          <p>lets reservesome space</p>
+          <p>lets reserve some space</p>
         </div>
       </section>
       <section id='reserve' className='reserve_space'>
@@ -74,7 +78,8 @@ function Home() {
           <p className='motive'>Indulge your senses in a symphony of flavors crafted by Silver
             Fork awardee Chef Alex. Join us for a dining experience where tradition meets innovation.</p>
         </div>
-        <div><button className='btn_book'>Reserve</button></div>
+        {/* Call handleReserve function when the "Reserve" button is clicked */}
+        <div><button className='btn_book' onClick={handleReserve}>Reserve</button></div>
       </section>
     </>
   );
